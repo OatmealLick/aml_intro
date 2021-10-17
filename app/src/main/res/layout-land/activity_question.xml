@@ -7,15 +7,15 @@
     tools:context=".QuestionActivity">
 
     <ImageButton
-        android:id="@+id/finish_button"
+        android:id="@+id/next_button"
         android:layout_width="149dp"
         android:layout_height="58dp"
         android:layout_below="@+id/question_group"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
         android:background="@drawable/button"
-        android:onClick="showScores"
-        android:text="@string/finish_quiz_button_label"
+        android:onClick="onNextClicked"
+        android:text="@string/next"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
@@ -30,7 +30,7 @@
         android:layout_alignLeft="@+id/question_text"
         android:orientation="vertical"
         android:paddingRight="50dp"
-        app:layout_constraintBottom_toTopOf="@+id/finish_button"
+        app:layout_constraintBottom_toTopOf="@+id/next_button"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.727"
         app:layout_constraintStart_toStartOf="parent"
@@ -107,10 +107,10 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/finish_quiz_button_label"
-        app:layout_constraintBottom_toBottomOf="@+id/finish_button"
-        app:layout_constraintEnd_toEndOf="@+id/finish_button"
-        app:layout_constraintStart_toStartOf="@+id/finish_button"
-        app:layout_constraintTop_toTopOf="@+id/finish_button" />
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="@+id/next_button"
+        app:layout_constraintEnd_toEndOf="@+id/next_button"
+        app:layout_constraintStart_toStartOf="@+id/next_button"
+        app:layout_constraintTop_toTopOf="@+id/next_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,5 +5,9 @@
     <string name="surname_hint">Last Name</string>
     <string name="go_button_label">Start</string>
     <string name="title_activity_question">Question</string>
-    <string name="finish_quiz_button_label">Finish</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="end_quiz_button_label">End quiz</string>
+    <string name="results_label_correct_answers">Correct answers:</string>
+    <string name="results_label_time">Your time:</string>
 </resources>
